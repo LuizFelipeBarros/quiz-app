@@ -1,0 +1,23 @@
+[
+
+  {
+    "question": "Qual time paulista foi rebaixado 2 vezes?",
+    "options": ["São Paulo", "Palmeiras", "Santos", "Corinthians"],
+    "correctAnswer": "Palmeiras"
+  },
+  {
+    "question": "Qual time é filho do Corinthians?",
+    "options": ["Santos", "Vasco", "Gremio", "Internacional", "Todos"],
+    "correctAnswer": "Todos"
+  },
+  {
+    "question": "No Flexbox do React Native, qual é o valor padrão de `flexDirection`?",
+    "options": ["row", "column", "row-reverse", "column-reverse"],
+    "correctAnswer": "column"
+  },
+  {
+    "question": "Qual arquivo de configuração define o nome e o ícone de um app Expo?",
+    "options": ["package.json", "tsconfig.json", "app.json", "expo.config.js"],
+    "correctAnswer": "app.json"
+  }
+]

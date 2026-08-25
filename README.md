@@ -54,7 +54,7 @@ O jogador enfrenta uma rodada com 15 perguntas escolhidas aleatoriamente a parti
 - npm
 - Expo Go no celular, ou um emulador Android/iOS
 
-### Instalacao
+### Instalação
 
 ```bash
 npm install
@@ -74,7 +74,7 @@ npx expo start --ios
 npx expo start --web
 ```
 
-### Verificacoes
+### Verificações
 
 ```bash
 npx tsc --noEmit

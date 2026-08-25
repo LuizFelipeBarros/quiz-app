@@ -112,6 +112,11 @@ Edite `questions.json` mantendo o formato abaixo. O campo `correctAnswer` deve s
 
 O banco deve conter pelo menos 15 perguntas para que uma rodada completa possa ser criada.
 
+## PrintScreen
+
+![Uploading image.png…]()
+
+
 ## Paleta visual
 
 - Fundo: `#101112`
@@ -125,3 +130,8 @@ O banco deve conter pelo menos 15 perguntas para que uma rodada completa possa s
 ## Licenca
 
 Este projeto esta sob a licenca MIT.
+
+
+## Criador
+
+criado por Luiz Felipe de Lima Barros

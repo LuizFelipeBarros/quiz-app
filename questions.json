@@ -1,23 +1,202 @@
 [
-
   {
-    "question": "Qual time paulista foi rebaixado 2 vezes?",
-    "options": ["São Paulo", "Palmeiras", "Santos", "Corinthians"],
+    "question": "Em que ano o Sport Club Corinthians Paulista foi fundado?",
+    "options": ["1908", "1910", "1912", "1914"],
+    "correctAnswer": "1910"
+  },
+  {
+    "question": "Qual time o Corinthians derrotou na final da Copa Libertadores da América de 2012?",
+    "options": ["Boca Juniors", "River Plate", "Peñarol", "Nacional"],
+    "correctAnswer": "Boca Juniors"
+  },
+  {
+    "question": "Quem foi o autor do gol do título do Corinthians na final do Mundial de Clubes da FIFA em 2012?",
+    "options": ["Emerson Sheik", "Paulinho", "Paolo Guerrero", "Danilo"],
+    "correctAnswer": "Paolo Guerrero"
+  },
+  {
+    "question": "Que jogador marcou o histórico gol do título paulista de 1977, encerrando um jejum de quase 23 anos sem conquistas expressivas?",
+    "options": ["Sócrates", "Basílio", "Rivellino", "Zé Maria"],
+    "correctAnswer": "Basílio"
+  },
+  {
+    "question": "Qual jogador detém o recorde de maior número de partidas disputadas com a camisa do Corinthians?",
+    "options": ["Cássio", "Rivellino", "Wladimir", "Marcelinho Carioca"],
+    "correctAnswer": "Wladimir"
+  },
+  {
+    "question": "Em 1976, ocorreu a famosa 'Invasão Corinthiana', quando milhares de torcedores viajaram ao Rio de Janeiro. Contra qual time foi esse jogo?",
+    "options": ["Flamengo", "Fluminense", "Vasco da Gama", "Botafogo"],
+    "correctAnswer": "Fluminense"
+  },
+  {
+    "question": "Qual foi o principal líder e símbolo do movimento 'Democracia Corinthiana', no início da década de 1980?",
+    "options": ["Sócrates", "Casagrande", "Wladimir", "Biro-Biro"],
+    "correctAnswer": "Sócrates"
+  },
+  {
+    "question": "Em 1990, o Corinthians conquistou seu primeiro Campeonato Brasileiro. Quem era o grande craque e camisa 10 daquele time?",
+    "options": ["Marcelinho Carioca", "Neto", "Tupãzinho", "Ronaldo Giovanelli"],
+    "correctAnswer": "Neto"
+  },
+  {
+    "question": "Na final do primeiro Mundial de Clubes da FIFA em 2000, o Corinthians venceu qual time na disputa de pênaltis?",
+    "options": ["Real Madrid", "Vasco da Gama", "Necaxa", "Raja Casablanca"],
+    "correctAnswer": "Vasco da Gama"
+  },
+  {
+    "question": "Qual é o mascote oficial do Sport Club Corinthians Paulista?",
+    "options": ["O Gavião", "O Mosqueteiro", "O Santo", "O Almirante"],
+    "correctAnswer": "O Mosqueteiro"
+  },
+  {
+    "question": "Quem é o maior artilheiro da história do Corinthians, com 305 gols marcados?",
+    "options": ["Cláudio", "Baltazar", "Teleco", "Neco"],
+    "correctAnswer": "Cláudio"
+  },
+  {
+    "question": "Marcelinho Carioca, um dos jogadores com mais títulos pelo clube, era popularmente conhecido por qual apelido?",
+    "options": ["Pé de Anjo", "Rei do Drible", "Canhão da Fiel", "Xodó da Fiel"],
+    "correctAnswer": "Pé de Anjo"
+  },
+  {
+    "question": "Contra qual grande rival Ronaldo 'Fenômeno' marcou seu primeiro gol pelo Corinthians em 2009?",
+    "options": ["São Paulo", "Palmeiras", "Santos", "Ponte Preta"],
     "correctAnswer": "Palmeiras"
   },
   {
-    "question": "Qual time é filho do Corinthians?",
-    "options": ["Santos", "Vasco", "Gremio", "Internacional", "Todos"],
-    "correctAnswer": "Todos"
+    "question": "Quem era o técnico que comandou o Corinthians nas conquistas da Libertadores e do Mundial de Clubes em 2012?",
+    "options": ["Mano Menezes", "Fábio Carille", "Tite", "Vanderlei Luxemburgo"],
+    "correctAnswer": "Tite"
   },
   {
-    "question": "No Flexbox do React Native, qual é o valor padrão de `flexDirection`?",
-    "options": ["row", "column", "row-reverse", "column-reverse"],
-    "correctAnswer": "column"
+    "question": "Nas quartas de final da Libertadores de 2012, o goleiro Cássio fez uma defesa histórica em um chute de qual jogador do Vasco?",
+    "options": ["Juninho Pernambucano", "Alecsandro", "Diego Souza", "Fagner"],
+    "correctAnswer": "Diego Souza"
   },
   {
-    "question": "Qual arquivo de configuração define o nome e o ícone de um app Expo?",
-    "options": ["package.json", "tsconfig.json", "app.json", "expo.config.js"],
-    "correctAnswer": "app.json"
+    "question": "Na conquista do Campeonato Brasileiro de 2005, qual jogador argentino foi o grande destaque e artilheiro do time?",
+    "options": ["Javier Mascherano", "Carlos Tevez", "Sebastián Domínguez", "Herrera"],
+    "correctAnswer": "Carlos Tevez"
+  },
+  {
+    "question": "Em qual bairro da cidade de São Paulo o Corinthians foi fundado à luz de um lampião em 1910?",
+    "options": ["Tatuapé", "Itaquera", "Mooca", "Bom Retiro"],
+    "correctAnswer": "Bom Retiro"
+  },
+  {
+    "question": "Em que ano a Neo Química Arena foi inaugurada?",
+    "options": ["2012", "2013", "2014", "2015"],
+    "correctAnswer": "2014"
+  },
+  {
+    "question": "Quantos gols Emerson Sheik marcou no jogo de volta da final da Libertadores de 2012 contra o Boca Juniors?",
+    "options": ["Um", "Dois", "Três", "Nenhum"],
+    "correctAnswer": "Dois"
+  },
+  {
+    "question": "Embora o Corinthians seja famoso pelo preto e branco, a primeira camisa do clube em 1910 era de qual cor predominante?",
+    "options": ["Bege", "Azul", "Vermelha", "Cinza"],
+    "correctAnswer": "Bege"
+  },
+  {
+    "question": "Como é tradicionalmente chamado o grande clássico entre Corinthians e Palmeiras?",
+    "options": ["Majestoso", "San-São", "Choque-Rei", "Derby Paulista"],
+    "correctAnswer": "Derby Paulista"
+  },
+  {
+    "question": "Quem foi o primeiro presidente da história do Sport Club Corinthians Paulista?",
+    "options": ["Vicente Matheus", "Andrés Sanchez", "Miguel Battaglia", "Wadih Helu"],
+    "correctAnswer": "Miguel Battaglia"
+  },
+  {
+    "question": "Na inesquecível semifinal do Paulistão de 1999 contra o São Paulo, qual goleiro corinthiano defendeu duas cobranças de pênalti de Raí?",
+    "options": ["Dida", "Ronaldo Giovanelli", "Júlio César", "Cássio"],
+    "correctAnswer": "Dida"
+  },
+  {
+    "question": "Em que ano o Corinthians conquistou o título da Série B do Campeonato Brasileiro e garantiu seu retorno à elite?",
+    "options": ["2007", "2008", "2009", "2010"],
+    "correctAnswer": "2008"
+  },
+  {
+    "question": "Qual treinador estava no comando do Corinthians na conquista do Campeonato Brasileiro de 2017?",
+    "options": ["Tite", "Mano Menezes", "Fábio Carille", "Sylvinho"],
+    "correctAnswer": "Fábio Carille"
+  },
+  {
+    "question": "Na final da Copa do Brasil de 2002, o Corinthians sagrou-se campeão derrotando qual equipe?",
+    "options": ["Grêmio", "Flamengo", "São Paulo", "Brasiliense"],
+    "correctAnswer": "Brasiliense"
+  },
+  {
+    "question": "Qual jogador do Corinthians foi eleito o craque do Campeonato Brasileiro de 2015?",
+    "options": ["Jadson", "Renato Augusto", "Ralf", "Elias"],
+    "correctAnswer": "Renato Augusto"
+  },
+  {
+    "question": "Qual time inglês o Corinthians derrotou por 1 a 0 na final do Mundial de Clubes de 2012?",
+    "options": ["Liverpool", "Manchester United", "Chelsea", "Arsenal"],
+    "correctAnswer": "Chelsea"
+  },
+  {
+    "question": "Na final do Campeonato Paulista de 1988, qual jovem jogador marcou o gol do título na prorrogação contra o Guarani?",
+    "options": ["Neto", "Ronaldo", "Viola", "Casagrande"],
+    "correctAnswer": "Viola"
+  },
+  {
+    "question": "Onde está localizada a sede social do Corinthians, popularmente conhecida como Fazendinha?",
+    "options": ["Itaquera", "Parque São Jorge", "Pacaembu", "Morumbi"],
+    "correctAnswer": "Parque São Jorge"
+  },
+  {
+    "question": "Na final do Paulistão de 1995 contra o Palmeiras, qual jogador fez um golaço de falta decisivo em Ribeirão Preto?",
+    "options": ["Tupãzinho", "Marcelinho Carioca", "Viola", "Zé Elias"],
+    "correctAnswer": "Marcelinho Carioca"
+  },
+  {
+    "question": "Quantas vezes o Corinthians venceu a Copa Libertadores da América de forma invicta?",
+    "options": ["Nenhuma", "Uma", "Duas", "Três"],
+    "correctAnswer": "Uma"
+  },
+  {
+    "question": "Quem fez o gol da classificação aos 48 minutos do segundo tempo na inesquecível semifinal do Paulistão de 2001 contra o São Paulo?",
+    "options": ["Gil", "Marcelinho Carioca", "Ricardinho", "Luizão"],
+    "correctAnswer": "Ricardinho"
+  },
+  {
+    "question": "Quem foi o grande artilheiro do Corinthians na campanha do título do Campeonato Brasileiro de 1999?",
+    "options": ["Edílson", "Luizão", "Dinei", "Marcelinho Carioca"],
+    "correctAnswer": "Luizão"
+  },
+  {
+    "question": "O Corinthians conquistou um histórico tricampeonato paulista recentemente. Em quais anos isso aconteceu?",
+    "options": ["2015, 2016 e 2017", "2016, 2017 e 2018", "2017, 2018 e 2019", "2018, 2019 e 2020"],
+    "correctAnswer": "2017, 2018 e 2019"
+  },
+  {
+    "question": "Jô, atacante revelado na base do clube, retornou e foi o grande nome e artilheiro de qual competição em 2017?",
+    "options": ["Copa do Brasil", "Campeonato Brasileiro", "Copa Sul-Americana", "Campeonato Paulista"],
+    "correctAnswer": "Campeonato Brasileiro"
+  },
+  {
+    "question": "Na mesma partida da defesa de Cássio contra Diego Souza, quem marcou o gol de cabeça que classificou o Corinthians na Libertadores de 2012?",
+    "options": ["Chicão", "Leandro Castán", "Paulinho", "Ralf"],
+    "correctAnswer": "Paulinho"
+  },
+  {
+    "question": "Quem foi o autor do gol chorado, que ficou conhecido como 'o gol do título', na final do Brasileirão de 1990 contra o São Paulo?",
+    "options": ["Neto", "Tupãzinho", "Fabinho", "Wilson Mano"],
+    "correctAnswer": "Tupãzinho"
+  },
+  {
+    "question": "Antes da ascensão de Cássio em 2012, qual goleiro revelado na base era o titular na conquista do pentacampeonato brasileiro em 2011?",
+    "options": ["Júlio César", "Danilo Fernandes", "Felipe", "Renan"],
+    "correctAnswer": "Júlio César"
+  },
+  {
+    "question": "Em 2005, o Corinthians aplicou uma goleada histórica sobre o Santos pelo Campeonato Brasileiro, com show de Tevez e Nilmar. Qual foi o placar?",
+    "options": ["5 a 1", "6 a 1", "7 a 1", "8 a 2"],
+    "correctAnswer": "7 a 1"
   }
 ]

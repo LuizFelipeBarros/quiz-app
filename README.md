@@ -1,50 +1,127 @@
-# Welcome to your Expo app 👋
+# Quiz do Timao
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile de perguntas e respostas sobre o Sport Club Corinthians Paulista, desenvolvido com React Native, Expo e TypeScript.
 
-## Get started
+(print)
 
-1. Install dependencies
+## Sobre o jogo
 
-   ```bash
-   npm install
-   ```
+O jogador enfrenta uma rodada com 15 perguntas escolhidas aleatoriamente a partir de um banco com 40 perguntas sobre a historia, os idolos e as conquistas do Corinthians.
 
-2. Start the app
+### Regras
 
-   ```bash
-   npx expo start
-   ```
+- A partida comeca com 3 Vidas, tambem chamadas de Chances de Titulo.
+- Cada resposta correta marca 1 Gol Marcado.
+- Cada resposta errada remove 1 vida.
+- A partida termina imediatamente quando as 3 vidas acabam.
+- Ao responder as 15 perguntas com pelo menos 1 vida, o jogador vence.
+- Uma nova partida embaralha novamente o banco de perguntas e seleciona outra rodada.
 
-In the output, you'll find options to open the app in a
+### Identidade do Corinthians
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Acerto: **GOL DO TIMAO! VAI CORINTHIANS!**
+- Erro: **FALTA FEIA! Resposta errada. Perdeu 1 vida!**
+- Eliminacao: **Fim de jogo! O Timao foi eliminado. Tente novamente!**
+- Vitoria: **E CAMPEAO! Voce levantou a taca marcando X gols!**
+- Comandos exibidos nas alternativas: `!chutar A`, `!chutar B`, `!chutar C` e `!chutar D`.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Funcionalidades
 
-## Get a fresh project
+- Tela inicial com resumo da rodada e das vidas.
+- Selecao aleatoria de 15 perguntas por partida.
+- Barra de progresso da rodada.
+- Indicador de vidas restantes.
+- Feedback visual para respostas corretas e incorretas.
+- Tela final com gols marcados, percentual e resultado da campanha.
+- Layout responsivo com rolagem para perguntas longas em celulares.
+- Animacoes de entrada e transicao entre perguntas.
 
-When you're ready, run:
+## Tecnologias
+
+- React Native 0.81
+- Expo SDK 54
+- Expo Router
+- TypeScript
+- React Native Animated API
+
+## Como executar
+
+### Requisitos
+
+- Node.js 20.19 ou superior
+- npm
+- Expo Go no celular, ou um emulador Android/iOS
+
+### Instalacao
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Iniciar o projeto
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Depois, escaneie o QR code com o Expo Go ou use uma das opcoes do terminal:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start --android
+npx expo start --ios
+npx expo start --web
+```
 
-## Join the community
+### Verificacoes
 
-Join our community of developers creating universal apps.
+```bash
+npx tsc --noEmit
+npm run lint
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+O lint tambem verifica arquivos demonstrativos do projeto. Erros nesses arquivos podem aparecer mesmo quando o quiz estiver funcionando normalmente.
+
+## Estrutura principal
+
+```text
+quiz-app/
+├── app/
+│   ├── _layout.tsx          # Configuracao do Expo Router
+│   └── index.tsx            # Estado e regras da partida
+├── components/
+│   ├── StartScreen.tsx      # Tela inicial
+│   ├── QuizScreen.tsx       # Perguntas, alternativas e feedback
+│   ├── ResultScreen.tsx     # Vitoria ou eliminacao
+│   └── ExemploSemUseState.tsx
+├── questions.json           # Banco de perguntas
+├── app.json                 # Configuracao do Expo
+└── package.json             # Dependencias e scripts
+```
+
+## Como adicionar perguntas
+
+Edite `questions.json` mantendo o formato abaixo. O campo `correctAnswer` deve ser exatamente igual a uma das opcoes:
+
+```json
+{
+  "question": "Qual e o mascote do Corinthians?",
+  "options": ["O Mosqueteiro", "O Galo", "O Leao", "O Gato"],
+  "correctAnswer": "O Mosqueteiro"
+}
+```
+
+O banco deve conter pelo menos 15 perguntas para que uma rodada completa possa ser criada.
+
+## Paleta visual
+
+- Fundo: `#101112`
+- Superficie: `#1B1D20`
+- Vermelho principal: `#E31C2B`
+- Texto claro: `#FFFFFF`
+- Texto secundario: `#A8ABB0`
+- Acerto: `#4ADE80`
+- Erro: `#FF6873`
+
+## Licenca
+
+Este projeto esta sob a licenca MIT.

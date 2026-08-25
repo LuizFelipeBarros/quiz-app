@@ -114,7 +114,8 @@ O banco deve conter pelo menos 15 perguntas para que uma rodada completa possa s
 
 ## PrintScreen
 
-![Uploading image.png…]()
+<img width="383" height="755" alt="image" src="https://github.com/user-attachments/assets/b6311ac9-b634-46b6-94ff-10d193b8f68c" />
+
 
 
 ## Paleta visual

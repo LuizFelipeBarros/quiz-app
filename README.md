@@ -2,7 +2,9 @@
 
 Aplicativo mobile de perguntas e respostas sobre o Sport Club Corinthians Paulista, desenvolvido com React Native, Expo e TypeScript.
 
-(print)
+## PrintScreen
+
+<img width="383" height="755" alt="image" src="https://github.com/user-attachments/assets/b6311ac9-b634-46b6-94ff-10d193b8f68c" />
 
 ## Sobre o jogo
 
@@ -111,11 +113,6 @@ Edite `questions.json` mantendo o formato abaixo. O campo `correctAnswer` deve s
 ```
 
 O banco deve conter pelo menos 15 perguntas para que uma rodada completa possa ser criada.
-
-## PrintScreen
-
-<img width="383" height="755" alt="image" src="https://github.com/user-attachments/assets/b6311ac9-b634-46b6-94ff-10d193b8f68c" />
-
 
 
 ## Paleta visual
